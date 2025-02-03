@@ -1,0 +1,19 @@
+/* NavHeader.css */
+
+.main-nav {
+    background-color: #232F3E; /* Amazon's background color */
+    padding: 10px 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 0.875rem; /* Smaller font size */
+}
+
+.main-nav a:hover {
+    border: 0.1px solid white; /* Border on hover */
+}

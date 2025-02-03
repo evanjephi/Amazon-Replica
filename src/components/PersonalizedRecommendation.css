@@ -1,0 +1,42 @@
+.personalized-recommendation {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+  z-index: 1; /* Ensure it is above other components */
+  position: relative; /* Ensure it respects the z-index */
+}
+
+.personalized-recommendation h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.sign-in-button {
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.sign-in-button:hover {
+  background-color: #e2b33b;
+}
+
+.personalized-recommendation p {
+  margin-top: 10px;
+  color: black;
+
+}
+
+.personalized-recommendation a {
+  color: #007185;
+  text-decoration: none;
+}
+
+.personalized-recommendation a:hover {
+  text-decoration: underline;
+}

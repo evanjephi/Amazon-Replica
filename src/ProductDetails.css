@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.product-item {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.product-item:hover {
+    background-color: #f0f0f0;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.product-image {
+    flex: 1;
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-info {
+    flex: 2;
+    text-align: left;
+    color: #333;
+
+}
+
+.product-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+
+
+
+.product-price-info {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.product-price-info p {
+    margin: 5px 0;
+}
+
+.product-price-info, .small-text {
+    font-size: 12px;
+    color: #555;
+}
+
+.add-to-cart {
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #F7CA00;
+}
+
+.pre-order-button, .gift-receipt-button {
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    color: black
+}
+
+.pre-order-button:hover, .gift-receipt-button:hover {
+    background-color: #F7CA00;
+}
+
+.gift-receipt-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.gift-receipt-checkbox input {
+    margin-right: 10px;
+}
+
+.important-text {
+    color: #007600!important;
+    font-weight: bold;
+}

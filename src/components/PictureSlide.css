@@ -1,0 +1,57 @@
+.picture-slide-container {
+    position: relative;
+    z-index: 0; /* Ensure it appears below the gradient */
+    overflow: hidden; /* Crop the bottom */
+    height: 30vh; /* Adjust the height as needed */
+}
+
+.picture-slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* Ensure it appears below the product list */
+}
+
+.slide-image {
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+    margin-right: 10px;
+    position: relative;
+}
+
+.nav-button {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.shop-message {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 10px;
+    width: 90%; /* Increase the width */
+    max-width: auto; /* Set a maximum width */
+    z-index: 3;
+}
+
+.nav-button:first-of-type {
+    left: 50px;
+}
+
+.nav-button:last-of-type {
+    right: 50px;
+}
